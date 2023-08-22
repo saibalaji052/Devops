@@ -1,0 +1,19 @@
+site_name: MkDocs
+site_url: https://example.com/
+
+theme:
+  name: readthedocs
+markdown_extensions:
+  - smarty
+  - toc:
+      permalink: true
+  - sane_lists
+nav:
+  - Home: index.md
+  - Status: Status.md
+  - Analysis: Analysis.md
+  - Study: Study.md
+  - SolutionDesign: SolutionDesign.md
+  - Documentation: Documentation.md
+  - Validation: Validation.md
+
